@@ -1,6 +1,8 @@
 FizzBuzz International
 ======================
 
+This documentation is in encglish
+
 Print number from 1 to 100.
 
 Multiple of 3 should print Fizz
