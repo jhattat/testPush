@@ -17,8 +17,8 @@ public class FizzBuzzTest {
 		assertThat(fizzBuzz(2), equalTo(String.valueOf(2)));
 	}
 
-	private String fizzBuzz(int i) {
-		return String.valueOf(i);
+	private String fizzBuzz(int number) {
+		return String.valueOf(number);
 	}
 
 }
