@@ -12,8 +12,13 @@ public class FizzBuzzTest {
 		assertThat(fizzBuzz(1), equalTo(String.valueOf(1)));
 	}
 
+	@Test
+	public void FizzBuzz2_is2() {
+		assertThat(fizzBuzz(2), equalTo(String.valueOf(2)));
+	}
+
 	private String fizzBuzz(int i) {
-		return String.valueOf(1);
+		return String.valueOf(i);
 	}
 
 }
